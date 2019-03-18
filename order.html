@@ -1,1 +1,85 @@
-ORDER CYKA
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{ background:#000; margin:0px; }
+div#menubar1{ 
+	text-align: center;
+	margin:0 auto;
+	width:720px; 
+	padding:24px; 
+	border:#999 1px solid;
+	margin-bottom: 50px;
+}
+div#menubar1 > a{
+    font-family:Calibri, Helvetica, sans-serif;
+    font-size:17px;
+    background: #333;
+    padding: 12px 24px;
+    color:#999;
+    margin-right: 10px;
+    text-decoration:none;
+    border-radius: 3px;
+    transition: background 0.3s linear 0s, color 0.3s linear 0s;
+}
+div#menubar1 > a:hover{
+    background: #0059b3;
+    color:#FFF;
+}
+
+div#container
+{
+
+	margin:0 auto;
+	width:720px; 
+	padding:24px; 
+	border:#999 1px solid;
+}
+
+
+div#container > h3,h4
+{
+	color: #FFF;
+}
+
+input[type=text]
+{
+	color: #FFF;
+	width: 300px;
+}
+
+textarea
+{
+	height: 150px;
+	width: 400px;
+	resize: none;
+}
+
+</style>
+</head>
+<body>
+	<div id="menubar1">
+	  <a href="#">Home</a><a href="#">Indicatoare</a><a href="#">Despre noi</a><a href="#">Comandă</a>
+	</div>
+	<div id="container">
+		<form align="center">
+		 <h4> Numele și prenumele dvs:</h4>
+		  <input type="text" name="name"></h4>
+		 <h4> Numărul dvs de telefon:</h4>
+		  <input type="text" name="number">
+		 <h4>Email *(opțional):</h4>
+		  <input type="text" name="mail"><br><br>
+		  <h4>Detalii privind comanda:</h4>
+		  <textarea></textarea>
+		  <br>
+		  <h4>Veți fi contactat ulterior pentru a stabili detalii precum prețul, cantitatea si modelul indicatoarelor.</h4>
+		  <input type="submit" value="Comandă">
+		  <br>
+		  <h4>Ne puteți contacta direct:</h4>
+		  <h4>Mobil: +40 767 594 470</h4>
+		  <h4>Email: dumitrescuirconstantin.ii@gmail.com</h4>
+		  <h4>Email personal: cdumi39@gmail.com</h4>
+		</form>
+	</div>
+</body>
+</html>
