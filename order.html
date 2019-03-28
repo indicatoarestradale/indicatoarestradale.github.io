@@ -2,6 +2,8 @@
 <html>
 <head>
 <link rel="stylesheet" type="text/css" href="style.css"> 
+<link rel="icon" href="favico2.png" type="image/x-icon" />
+<title>Comandă</title>
 <style>
 
 </style>
@@ -11,27 +13,25 @@
 	  <a href="index.html">Home</a>
 	  <a href="indicatoare.html">Indicatoare</a>
 	  <a href="confectii.html">Confecții</a>
-	  <a href="about.html">Despre noi</a>
 	  <a href="order.html">Comandă</a>
 	</div>
 	<div id="container">
-		<form align="center">
+		<form name="order" align="center" action="https://formspree.io/cdumi39@gmail.com" method="post">
 		 <h4> Numele și prenumele dvs:</h4>
-		  <input type="text" name="name"></h4>
+		  <input type="text" name="Nume"></h4>
 		 <h4> Numărul dvs de telefon:</h4>
-		  <input type="text" name="number">
-		 <h4>Email *(opțional):</h4>
-		  <input type="text" name="mail"><br><br>
+		  <input type="text" name="Telefon">
+		  <h4>Email:</h4>
+		  <input type="text" name="Email"><br><br>
 		  <h4>Detalii privind comanda:</h4>
-		  <textarea></textarea>
+		  <textarea name='Subiect'></textarea>
 		  <br>
 		  <h4>Veți fi contactat ulterior pentru a stabili detalii precum prețul, cantitatea si modelul indicatoarelor.</h4>
-		  <input type="submit" value="Comandă">
+		  <input type="submit" value="Comandă" name='submit'>
 		  <br>
 		  <h4>Ne puteți contacta direct:</h4>
 		  <h4>Mobil: +40 767 594 470</h4>
-		  <h4>Email: dumitrescuirconstantin.ii@gmail.com</h4>
-		  <h4>Email personal: cdumi39@gmail.com</h4>
+		  <h4>Email: cdumi39@gmail.com</h4>
 		</form>
 	</div>
 	<div id="under">
